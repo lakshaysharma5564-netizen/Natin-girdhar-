@@ -28,13 +28,19 @@ export const SALON_INFO = {
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.1278146765796!2d77.19712537571348!3d28.679093881729447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd7023daffff%3A0x6b4eb543666b6c23!2sNitin%20Girdhar%20Unisex%20Salon!5e0!3m2!1sen!2sin!4v1714000000000!5m2!1sen!2sin',
 };
 
-// Generated high-fidelity visual assets
+import heroImg from '../assets/images/hero_luxury_salon_interior_1794069054255.jpg';
+import bridalImg from '../assets/images/bridal_makeup_transformation_1794069055392.jpg';
+import hairImg from '../assets/images/hair_transformation_styling_1794069055131.jpg';
+import skinImg from '../assets/images/skincare_facial_treatment_1794069055974.jpg';
+import groomingImg from '../assets/images/mens_grooming_styling_1794069056163.jpg';
+
+// Production-safe Vite bundled visual assets
 export const SALON_IMAGES = {
-  hero: '/src/assets/images/hero_luxury_salon_interior_1794069054255.jpg',
-  bridal: '/src/assets/images/bridal_makeup_transformation_1794069055392.jpg',
-  hair: '/src/assets/images/hair_transformation_styling_1794069055131.jpg',
-  skin: '/src/assets/images/skincare_facial_treatment_1794069055974.jpg',
-  grooming: '/src/assets/images/mens_grooming_styling_1794069056163.jpg',
+  hero: heroImg,
+  bridal: bridalImg,
+  hair: hairImg,
+  skin: skinImg,
+  grooming: groomingImg,
 };
 
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
